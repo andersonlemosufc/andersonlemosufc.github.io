@@ -21,6 +21,7 @@ footer {
     padding-top: 3vh;
     width: 100%;
     background-color: #eee;
+
 }
 
 .img-content {
@@ -28,19 +29,26 @@ footer {
 	margin: 0 auto;
 }
 
-#info {
+.info {
 	width: 60%;
 	height: auto;
-	padding: 3%;
+	padding-right: 3%;
+	padding-left: 3%;
+	padding-top: 2%;
+	padding-bottom: 2%;
 	margin: 0 auto;
 	background-color: #A4DEDF;
 	border-radius: 5px 5px 5px 5px;
 	box-shadow: 0 0 5px -1px rgba(0,0,0,1);
 	text-align: justify;
-	margin-top: 4%;
+	margin-top: 2%;
 }
 
-#links {
+.info h2 {
+	font-size: 2.5vh;
+}
+
+.links {
 	width: 69.96%;
 	height: auto;
 	font-size: 2.5vh;
@@ -49,10 +57,9 @@ footer {
 	margin-left: 17%;
 	font-weight: bold;
 	overflow: hidden;
-	margin-bottom: 10vh;
 }
 
-#links div {
+.links div {
 	width: 42.38%;
 	min-height: 6vh;
 	height: auto;
@@ -66,11 +73,25 @@ footer {
 	color: black;
 }
 
-#links div:hover {
+.links div:hover {
 	background-color: #aaa;
 	cursor: pointer;
 }
 
-#links div:active {
+.links div:active {
     box-shadow: 0 0 5px -1px rgba(0,0,0,1);
+}
+
+#info-source-code {
+	margin-bottom: 10vh;
+	text-align: center;
+}
+
+#info-source-code a {
+	text-decoration: none;
+	color: #8550BD;
+}
+
+#info-source-code a:hover {
+	color: #C21D00;
 }
